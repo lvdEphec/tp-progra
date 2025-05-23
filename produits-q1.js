@@ -4,22 +4,28 @@ https://github.com/lvdEphec/tp-progra
 
 Q1--- Logique et programmations
 
-Se baser en local sur ces données d'acteurs défini dans produits-q1.js
+1) Se baser en local sur les données de produits définis ci-dessous.
 
-Construire une table sur base de ces données.
+2) Remplir la table sur base de ces données.
 
-Créer un index qui trie sur le Et construire la table sur cet index
+3.a) Créer un index qui trie sur base des montants,
+puis afficher les données dans le tableau sur base de cet index.
+3.b) Créer un index qui trie sur base des montants en majeur, puis sur les nom en mineur,
 
-Ajouter un produit en utilisant le formulaire. [Note: pour la catégorie on hardcode toujours la même ici]
+puis afficher les données dans le tableau sur base de cet index.
 
-Créer une fonction qui calcule le prix moyen. Puis une fonction qui affiche en console le prix moyen en utilisant la fonction précédente.
+4) Ajouter un produit en utilisant le formulaire.
+
+5) Créer une fonction calculerPrixMoyen() qui calcule le prix moyen.
+Puis une fonction afficherPrixMoyen(), qui affiche en console le prix moyen en utilisant la fonction précédente.
 
 */
 
 let index = ['p02','p03'];
-let courses = {
-    p01:{nom: table,     montant: 50},    
-    p02:{nom: ordinateur,     montant: 1000},    
-    p03:{nom: consolle,     montant: 600}
+let produits = {
+    p01:{nom: table, montant: 50},    
+    p02:{nom: ordinateur, montant: 1000},    
+    p03:{nom: PS5, montant: 600}
+	p03:{nom: Switch2, montant: 600}
 	}
 };
