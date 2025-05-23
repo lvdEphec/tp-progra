@@ -22,10 +22,10 @@ Puis une fonction afficherPrixMoyen(), qui affiche en console le prix moyen en u
 */
 
 let index = ['p02','p03'];
-let produits = {
-    p01:{nom: table, montant: 50},    
-    p02:{nom: ordinateur, montant: 1000},    
-    p03:{nom: PS5, montant: 600}
-	p03:{nom: Switch2, montant: 600}
-	}
+let courses = {
+    p01:{nom: "table",     montant: 50},    
+    p02:{nom: "ordinateur",     montant: 1000},    
+    p03:{nom: "PS5",     montant: 600},   
+    p04:{nom: "switch2",     montant: 600}
+	
 };
